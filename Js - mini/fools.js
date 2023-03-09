@@ -78,10 +78,6 @@ fruits.length = 2;
 })();
 //console.log(b)
 
-//shortening conosle log in browser------------------------------------------------
-//var c = console.log.bind(document)
-//c("Hello")
-
 
 //passing defult data if not data comes------------------------------------
 function printData(param1,param2) {
@@ -148,4 +144,8 @@ const Car = (color) => {
 //const redCar = new Car("red");
 
 
-
+//shortening conosle log in browser------------------------------------------------
+//var c = console.log.bind(document)
+//c("Hello")
+cl = (e) => console.log(e);
+cl("hi")
